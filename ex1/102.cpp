@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-	int num;
+	int num{};
 	std::cin >> num;
 
 	if (num % 2 == 0)

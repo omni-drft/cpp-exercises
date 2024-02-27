@@ -7,20 +7,20 @@ int main() {
 		std::cin >> nums[i];
 	}
 
-	unsigned int high_ind {0};
+	unsigned int high_ind {};
 	for (int i{1}; i < 3; ++i) {
 		if (nums[i] > nums[high_ind])
 			high_ind = i;
 	}
 
-	unsigned int sum {0};
+	unsigned int sum {};
 
 	for (int i{0}; i < 3; ++i) {
 		if (i != high_ind)
 			sum += nums[i];
 	}
 
-	for (int i{0}; i < nums[high_ind]; ++i) {
+	for (int i{}; i < nums[high_ind]; ++i) {
 		std::cout << sum << std::endl;
 	}
 
