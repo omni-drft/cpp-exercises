@@ -29,8 +29,8 @@ int main() {
 }
 
 int high(std::vector<int>& vec) {
-    int max = vec[0];
-    int index = 0;
+    int max {vec[0]};
+    int index {0};
     for (int i {1}; i < vec.size(); i++) {
         if (vec[i] > max) {
             max = vec[i];

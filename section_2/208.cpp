@@ -7,7 +7,7 @@ int main() {
     srand(time(NULL));
     
     double result {};
-    int first = rand() % 10;
+    int first {rand() % 10};
     
     if(first == 9) {
         result = 1;

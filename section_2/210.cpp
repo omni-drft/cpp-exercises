@@ -7,7 +7,7 @@ int main() {
     std::mt19937 mt(rd());
     std::uniform_int_distribution<int> dist(20, 30);
 
-    int randomNumber = dist(mt);
+    int randomNumber {dist(mt)};
 
     char c {};
     std::cin >> c;

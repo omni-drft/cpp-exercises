@@ -17,8 +17,8 @@ int main () {
     
     int count {0};
     while (count < 20) {
-       int num = dis(gen);
-       int index = dis2(gen);
+       int num {dis(gen)};
+       int index {dis2(gen)};
        if (vec.at(index) == -1) {
            vec.at(index) = num;
            count++;

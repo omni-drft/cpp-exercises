@@ -12,8 +12,8 @@ int main() {
     double tab[20] {};
 
     for (size_t i{}; i < 20; i++) {
-        double number = dist(mt);
-        double factor = 1000;
+        double number {dist(mt)};
+        double factor {1000};
         number = std::round(number * factor) / factor;
         tab[i] = number;
         // std::cout << number << std::endl;
