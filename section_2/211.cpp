@@ -2,9 +2,9 @@
 
 int main() {
     
-    int n;
+    int n {};
     std::cin >> n;
-    int z = n & 1;
+    int z {n & 1};
 
     if (z == 0)
         std::cout << "even" << std::endl;
